@@ -1,0 +1,132 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 1 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 in C:\Users\sjana\source\repos\BenchmarkingAssignment\BenchmarkingAssignment\bin\Release\netcoreapp2.2\e12eed2a-4c3e-4d1a-ae04-9dd9f68c5ba9
+// command took 3.62s and exited with 0
+// start dotnet build -c Release  --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 in C:\Users\sjana\source\repos\BenchmarkingAssignment\BenchmarkingAssignment\bin\Release\netcoreapp2.2\e12eed2a-4c3e-4d1a-ae04-9dd9f68c5ba9
+// command took 15.44s and exited with 1
+// start dotnet build -c Release  --no-restore --no-dependencies /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 in C:\Users\sjana\source\repos\BenchmarkingAssignment\BenchmarkingAssignment\bin\Release\netcoreapp2.2\e12eed2a-4c3e-4d1a-ae04-9dd9f68c5ba9
+// command took 5.03s and exited with 0
+// ***** Done, took 00:00:24 (24.44 sec)   *****
+// Found 1 benchmarks:
+//   ThreadPool.ManageThread: DefaultJob
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)// **************************
+// Benchmark: ThreadPool.ManageThread: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "e12eed2a-4c3e-4d1a-ae04-9dd9f68c5ba9.dll" --benchmarkName "BenchmarkingAssignment.Program+ThreadPool.ManageThread" --job "Default" --benchmarkId 0 in C:\Users\sjana\source\repos\BenchmarkingAssignment\BenchmarkingAssignment\bin\Release\netcoreapp2.2\e12eed2a-4c3e-4d1a-ae04-9dd9f68c5ba9\bin\Release\netcoreapp2.2
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.2.6 (CoreCLR 4.6.27817.03, CoreFX 4.6.27818.02), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 500147.95 ns, 500.1480 us/op
+WorkloadJitting  1: 1 op, 7026438705.60 ns, 7.0264 s/op
+
+WorkloadWarmup   1: 1 op, 7001574715.43 ns, 7.0016 s/op
+WorkloadWarmup   2: 1 op, 7008615107.71 ns, 7.0086 s/op
+WorkloadWarmup   3: 1 op, 7013711006.93 ns, 7.0137 s/op
+WorkloadWarmup   4: 1 op, 7002861430.97 ns, 7.0029 s/op
+WorkloadWarmup   5: 1 op, 7001044147.74 ns, 7.0010 s/op
+WorkloadWarmup   6: 1 op, 7001112493.39 ns, 7.0011 s/op
+WorkloadWarmup   7: 1 op, 7009503601.18 ns, 7.0095 s/op
+WorkloadWarmup   8: 1 op, 7010568292.12 ns, 7.0106 s/op
+WorkloadWarmup   9: 1 op, 7002093431.27 ns, 7.0021 s/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 7006774910.90 ns, 7.0068 s/op
+WorkloadActual   2: 1 op, 7000533333.12 ns, 7.0005 s/op
+WorkloadActual   3: 1 op, 7007490367.41 ns, 7.0075 s/op
+WorkloadActual   4: 1 op, 7012131945.82 ns, 7.0121 s/op
+WorkloadActual   5: 1 op, 7009616983.86 ns, 7.0096 s/op
+WorkloadActual   6: 1 op, 7012116143.36 ns, 7.0121 s/op
+WorkloadActual   7: 1 op, 7015830117.20 ns, 7.0158 s/op
+WorkloadActual   8: 1 op, 7013123155.31 ns, 7.0131 s/op
+WorkloadActual   9: 1 op, 6999854617.34 ns, 6.9999 s/op
+WorkloadActual  10: 1 op, 7000355555.42 ns, 7.0004 s/op
+WorkloadActual  11: 1 op, 7001806221.51 ns, 7.0018 s/op
+WorkloadActual  12: 1 op, 7001867060.99 ns, 7.0019 s/op
+WorkloadActual  13: 1 op, 7002514961.97 ns, 7.0025 s/op
+WorkloadActual  14: 1 op, 7000156839.44 ns, 7.0002 s/op
+WorkloadActual  15: 1 op, 7001342024.16 ns, 7.0013 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 7006774910.90 ns, 7.0068 s/op
+WorkloadResult   2: 1 op, 7000533333.12 ns, 7.0005 s/op
+WorkloadResult   3: 1 op, 7007490367.41 ns, 7.0075 s/op
+WorkloadResult   4: 1 op, 7012131945.82 ns, 7.0121 s/op
+WorkloadResult   5: 1 op, 7009616983.86 ns, 7.0096 s/op
+WorkloadResult   6: 1 op, 7012116143.36 ns, 7.0121 s/op
+WorkloadResult   7: 1 op, 7015830117.20 ns, 7.0158 s/op
+WorkloadResult   8: 1 op, 7013123155.31 ns, 7.0131 s/op
+WorkloadResult   9: 1 op, 6999854617.34 ns, 6.9999 s/op
+WorkloadResult  10: 1 op, 7000355555.42 ns, 7.0004 s/op
+WorkloadResult  11: 1 op, 7001806221.51 ns, 7.0018 s/op
+WorkloadResult  12: 1 op, 7001867060.99 ns, 7.0019 s/op
+WorkloadResult  13: 1 op, 7002514961.97 ns, 7.0025 s/op
+WorkloadResult  14: 1 op, 7000156839.44 ns, 7.0002 s/op
+WorkloadResult  15: 1 op, 7001342024.16 ns, 7.0013 s/op
+GC:  0 0 0 0 0
+
+// AfterAll
+
+Mean = 7.0057 s, StdErr = 0.0014 s (0.02%); N = 15, StdDev = 0.0056 s
+Min = 6.9999 s, Q1 = 7.0005 s, Median = 7.0025 s, Q3 = 7.0121 s, Max = 7.0158 s
+IQR = 0.0116 s, LowerFence = 6.9832 s, UpperFence = 7.0295 s
+ConfidenceInterval = [6.9997 s; 7.0117 s] (CI 99.9%), Margin = 0.0060 s (0.09% of Mean)
+Skewness = 0.44, Kurtosis = 1.48, MValue = 2
+
+Successfully reverted power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\BenchmarkingAssignment.Program.ThreadPool-report.csv
+  BenchmarkDotNet.Artifacts\results\BenchmarkingAssignment.Program.ThreadPool-report-github.md
+  BenchmarkDotNet.Artifacts\results\BenchmarkingAssignment.Program.ThreadPool-report.html
+
+// * Detailed results *
+ThreadPool.ManageThread: DefaultJob
+Runtime = .NET Core 2.2.6 (CoreCLR 4.6.27817.03, CoreFX 4.6.27818.02), 64bit RyuJIT; GC = Concurrent Workstation
+Mean = 7.0057 s, StdErr = 0.0014 s (0.02%); N = 15, StdDev = 0.0056 s
+Min = 6.9999 s, Q1 = 7.0005 s, Median = 7.0025 s, Q3 = 7.0121 s, Max = 7.0158 s
+IQR = 0.0116 s, LowerFence = 6.9832 s, UpperFence = 7.0295 s
+ConfidenceInterval = [6.9997 s; 7.0117 s] (CI 99.9%), Margin = 0.0060 s (0.09% of Mean)
+Skewness = 0.44, Kurtosis = 1.48, MValue = 2
+-------------------- Histogram --------------------
+[6.998 s ; 7.018 s) | @@@@@@@@@@@@@@@
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet=v0.11.5, OS=Windows 10.0.17134.829 (1803/April2018Update/Redstone4)
+Intel Core i7-6500U CPU 2.50GHz (Skylake), 1 CPU, 4 logical and 2 physical cores
+Frequency=2531251 Hz, Resolution=395.0616 ns, Timer=TSC
+.NET Core SDK=2.2.108
+  [Host]     : .NET Core 2.2.6 (CoreCLR 4.6.27817.03, CoreFX 4.6.27818.02), 64bit RyuJIT  [AttachedDebugger]
+  DefaultJob : .NET Core 2.2.6 (CoreCLR 4.6.27817.03, CoreFX 4.6.27818.02), 64bit RyuJIT
+
+
+|       Method |    Mean |    Error |   StdDev |
+|------------- |--------:|---------:|---------:|
+| ManageThread | 7.006 s | 0.0060 s | 0.0056 s |
+
+// * Warnings *
+Environment
+  Summary -> Benchmark was executed with attached debugger
+
+// * Legends *
+  Mean   : Arithmetic mean of all measurements
+  Error  : Half of 99.9% confidence interval
+  StdDev : Standard deviation of all measurements
+  1 s    : 1 Second (1 sec)
+
+// ***** BenchmarkRunner: End *****
+// ** Remained 0 benchmark(s) to run **
+Run time: 00:02:57 (177.5 sec), executed benchmarks: 1
+
+Global total time: 00:03:21 (201.97 sec), executed benchmarks: 1
+// * Artifacts cleanup *

@@ -1,0 +1,70 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 1 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 in C:\Users\sjana\source\repos\BenchmarkingAssignment\BenchmarkingAssignment\bin\Release\netcoreapp2.2\b0f6d8f8-6150-4429-96d0-f193c0b9d42b
+// command took 3.62s and exited with 0
+// start dotnet build -c Release  --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 in C:\Users\sjana\source\repos\BenchmarkingAssignment\BenchmarkingAssignment\bin\Release\netcoreapp2.2\b0f6d8f8-6150-4429-96d0-f193c0b9d42b
+// command took 17.27s and exited with 1
+// start dotnet build -c Release  --no-restore --no-dependencies /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 in C:\Users\sjana\source\repos\BenchmarkingAssignment\BenchmarkingAssignment\bin\Release\netcoreapp2.2\b0f6d8f8-6150-4429-96d0-f193c0b9d42b
+// command took 5.59s and exited with 0
+// ***** Done, took 00:00:26 (26.8 sec)   *****
+// Found 1 benchmarks:
+//   ThreadPool.ManageThread: DefaultJob
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)// **************************
+// Benchmark: ThreadPool.ManageThread: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "b0f6d8f8-6150-4429-96d0-f193c0b9d42b.dll" --benchmarkName "BenchmarkingAssignment.Program+ThreadPool.ManageThread" --job "Default" --benchmarkId 0 in C:\Users\sjana\source\repos\BenchmarkingAssignment\BenchmarkingAssignment\bin\Release\netcoreapp2.2\b0f6d8f8-6150-4429-96d0-f193c0b9d42b\bin\Release\netcoreapp2.2
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.2.6 (CoreCLR 4.6.27817.03, CoreFX 4.6.27818.02), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 760493.53 ns, 760.4935 us/op
+Hello
+WorkloadJitting  1: 1 op, 7028601667.71 ns, 7.0286 s/op
+
+Hello
+WorkloadWarmup   1: 1 op, 7000628147.90 ns, 7.0006 s/op
+Hello
+WorkloadWarmup   2: 1 op, 7017869425.04 ns, 7.0179 s/op
+Hello
+WorkloadWarmup   3: 1 op, 7015463105.00 ns, 7.0155 s/op
+Hello
+WorkloadWarmup   4: 1 op, 7004894022.76 ns, 7.0049 s/op
+Hello
+WorkloadWarmup   5: 1 op, 7009276045.72 ns, 7.0093 s/op
+Hello
+WorkloadWarmup   6: 1 op, 7006949923.18 ns, 7.0069 s/op
+
+// BeforeActualRun
+Hello
+WorkloadActual   1: 1 op, 7010156242.90 ns, 7.0102 s/op
+Hello
+WorkloadActual   2: 1 op, 7014111204.30 ns, 7.0141 s/op
+Hello
+WorkloadActual   3: 1 op, 7013464883.57 ns, 7.0135 s/op
+Hello
+WorkloadActual   4: 1 op, 7005511899.06 ns, 7.0055 s/op
+Hello
+WorkloadActual   5: 1 op, 7010527600.78 ns, 7.0105 s/op
+Hello
+WorkloadActual   6: 1 op, 7002234073.19 ns, 7.0022 s/op
+Hello
+WorkloadActual   7: 1 op, 7002830616.17 ns, 7.0028 s/op
+Hello
+WorkloadActual   8: 1 op, 7011770859.55 ns, 7.0118 s/op
+Hello
+WorkloadActual   9: 1 op, 7001467258.68 ns, 7.0015 s/op
+Hello
+WorkloadActual  10: 1 op, 7016470116.95 ns, 7.0165 s/op
+Hello
+WorkloadActual  11: 1 op, 7014816784.27 ns, 7.0148 s/op
+Hello
+WorkloadActual  12: 1 op, 7002225776.90 ns, 7.0022 s/op
+Hello
+WorkloadActual  13: 1 op, 7003773628.14 ns, 7.0038 s/op

@@ -1,0 +1,12 @@
+C:\Users\sjana\source\repos\BenchmarkingAssignment\BenchmarkingAssignment\bin\Release\netcoreapp2.2\BenchmarkingAssignment.deps.json
+C:\Users\sjana\source\repos\BenchmarkingAssignment\BenchmarkingAssignment\bin\Release\netcoreapp2.2\BenchmarkingAssignment.runtimeconfig.json
+C:\Users\sjana\source\repos\BenchmarkingAssignment\BenchmarkingAssignment\bin\Release\netcoreapp2.2\BenchmarkingAssignment.runtimeconfig.dev.json
+C:\Users\sjana\source\repos\BenchmarkingAssignment\BenchmarkingAssignment\bin\Release\netcoreapp2.2\BenchmarkingAssignment.dll
+C:\Users\sjana\source\repos\BenchmarkingAssignment\BenchmarkingAssignment\bin\Release\netcoreapp2.2\BenchmarkingAssignment.pdb
+C:\Users\sjana\source\repos\BenchmarkingAssignment\BenchmarkingAssignment\obj\Release\netcoreapp2.2\BenchmarkingAssignment.csproj.CoreCompileInputs.cache
+C:\Users\sjana\source\repos\BenchmarkingAssignment\BenchmarkingAssignment\obj\Release\netcoreapp2.2\BenchmarkingAssignment.AssemblyInfoInputs.cache
+C:\Users\sjana\source\repos\BenchmarkingAssignment\BenchmarkingAssignment\obj\Release\netcoreapp2.2\BenchmarkingAssignment.AssemblyInfo.cs
+C:\Users\sjana\source\repos\BenchmarkingAssignment\BenchmarkingAssignment\obj\Release\netcoreapp2.2\BenchmarkingAssignment.dll
+C:\Users\sjana\source\repos\BenchmarkingAssignment\BenchmarkingAssignment\obj\Release\netcoreapp2.2\BenchmarkingAssignment.pdb
+C:\Users\sjana\source\repos\BenchmarkingAssignment\BenchmarkingAssignment\obj\Release\netcoreapp2.2\BenchmarkingAssignment.csprojResolveAssemblyReference.cache
+C:\Users\sjana\source\repos\BenchmarkingAssignment\BenchmarkingAssignment\obj\Release\netcoreapp2.2\BenchmarkingAssignment.csprojAssemblyReference.cache
